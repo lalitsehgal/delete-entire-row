@@ -14,5 +14,7 @@ Steps:
   goto tools -> script editor and its done
 write your script and set suitable triggers
 
+please check the screenshot and video attcached :)
+
 
 
