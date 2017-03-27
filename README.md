@@ -1,6 +1,3 @@
-# delete-entire-row
-This is a script attached to Google spreadsheet which will help to delete the entire rows 
-
 ** If country is not Present in the sheet it will delete the entire row 
 
 Helps in Educational institutes etc.
