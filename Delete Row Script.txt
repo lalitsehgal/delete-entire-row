@@ -1,0 +1,17 @@
+function readRows() {
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var rows = sheet.getDataRange();
+  var numRows = rows.getNumRows();
+  var values = rows.getValues();
+
+  var rowsDeleted = 0;
+  for (var i = 0; i <= numRows - 1; i++) {
+    var row = values[i];
+    if (row[1] == '') 
+    {
+      sheet.deleteRow((parseInt(i)+1) - rowsDeleted);
+      rowsDeleted++;
+    }
+  }
+};
+
